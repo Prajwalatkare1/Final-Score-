@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Hello this is Prajwal Atkare'
+            }
+        }
+        stage('Test') {
+            steps {
+                echo 'Hello this is Prajwal Atkare'
+                sleep 60
+            }
+        }
+        stage('Deploy') {
+            steps {
+                echo 'Hello this is Prajwal Atkare'
+            }
+        }
+    }
+}
