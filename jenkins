@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Prajwal'
-                git 'https://github.com/Prajwalatkare1/Final-Score-'
+              git 'https://github.com/Prajwalatkare1/Final-Score-.git'
             }
         }
 
