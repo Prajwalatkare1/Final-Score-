@@ -1,20 +1,23 @@
 pipeline {
     agent any
+
     stages {
         stage('Build') {
             steps {
-                echo 'Hello this is Prajwal Atkare'
+                echo 'Prajwal'
+                git 'https://github.com/Prajwalatkare1/Final-Score-'
             }
         }
+
         stage('Test') {
             steps {
-                echo 'Hello this is Prajwal Atkare'
-                sleep 60
+                echo 'testing'
             }
         }
+
         stage('Deploy') {
             steps {
-                echo 'Hello this is Prajwal Atkare'
+                echo 'Deploying'
             }
         }
     }
