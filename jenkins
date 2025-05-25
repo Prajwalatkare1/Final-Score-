@@ -3,7 +3,7 @@ pipeline{
 stages{    
     stage('Git-Scm Checkout'){
         steps{
-            
+           git 'https://github.com/Prajwalatkare1/Final-Score-.git' 
         }
     }
 }
